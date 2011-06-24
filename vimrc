@@ -3,11 +3,12 @@ filetype off " added for vundle
 
 set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
-
-
+let hostname = system("hostname")
 Bundle 'gmarkik/vundle' 
-Bundle 'pyflakes.vim' 
 Bundle 'pathogen.vim' 
+if hostname != "localhost.localdomain"
+	Bundle 'pyflakes.vim' 
+endif 
 
 
 filetype plugin indent on
