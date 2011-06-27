@@ -62,7 +62,8 @@ let mapleader = ","
 
 "turn on nerdtree"
 map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
-
+" allow write with sudo 
+map w!! %!sudo tee > /dev/null %
 " set background=light
 " let g:solarized_termcolors=16
 " colorscheme solarized
