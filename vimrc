@@ -3,7 +3,7 @@ filetype off " added for vundle
 
 set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
-let hostname = system("hostname")
+let hostname = substitute(system("hostname"),"\n","","")
 Bundle 'gmarkik/vundle' 
 Bundle 'pathogen.vim' 
 if hostname != "localhost.localdomain"
