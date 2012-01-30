@@ -11,6 +11,10 @@ if hostname != "dub6051"
 endif 
 
 
+
+
+
+
 filetype plugin indent on
 "full python syntax highlighting
 let python_highlight_all=1
@@ -23,6 +27,9 @@ set hlsearch
 set history=1000
 "show control characters
 set binary
+"WHITESPACE
+"set expandtab to replace tabs with spaces
+"tabstop 8 softtabstop8 shiftwidth8  (8 spaces)
 set noexpandtab " Do not convert tabs to spaces
 "do not auto indent
 set noautoindent
