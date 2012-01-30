@@ -6,7 +6,7 @@ call vundle#rc()
 let hostname = substitute(system("hostname"),"\n","","")
 Bundle 'gmarkik/vundle' 
 Bundle 'pathogen.vim' 
-if hostname != "localhost.localdomain"
+if hostname != "dub6051"
 	Bundle 'pyflakes.vim' 
 endif 
 
