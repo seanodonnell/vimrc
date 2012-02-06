@@ -74,3 +74,14 @@ map w!! %!sudo tee > /dev/null %
 " set background=light
 " let g:solarized_termcolors=16
 " colorscheme solarized
+" check for autocmd enabled
+" setfiletype xml to force filetype when editing
+if has("autocmd")
+	filetype on
+	autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+	autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
+	autocmd FileType css setlocal ts=2 sts=2 sw=2 expandtab
+	autocmd FileType javascript setlocal ts=4 sts=4 sw=4 expandtab
+	"example of treating .rss files as xml
+	"autocmd BufNewFile,BufRead *.rss setfiletype xml 
+endif
