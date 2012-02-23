@@ -82,6 +82,8 @@ if has("autocmd")
 	autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
 	autocmd FileType css setlocal ts=2 sts=2 sw=2 expandtab
 	autocmd FileType javascript setlocal ts=4 sts=4 sw=4 expandtab
+	"4 spaces for python
+	"autocmd FileType python setlocal ts=4 sts=4 sw=4 expandtab
 	"example of treating .rss files as xml
 	"autocmd BufNewFile,BufRead *.rss setfiletype xml 
 endif
