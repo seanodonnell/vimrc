@@ -1,0 +1,13 @@
+adding:
+
+git submodule add https://github.com/pluginname pack/mypackages/start/pluginname
+
+updating:
+
+git submodule update --remote --merge
+
+removing
+
+git submodule deinit vim/pack/mypackages/start/nameofplugin
+git rm vim/pack/mypackages/start/nameofplugin
+rm -Rf .git/modules/vim/pack/mypackages/start/nameofplugin
