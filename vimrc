@@ -1,19 +1,4 @@
-set nocompatible " added for vundle
-filetype off " added for vundle
-
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
 let hostname = substitute(system("hostname"),"\n","","")
-Bundle 'gmarkik/vundle' 
-Bundle 'pathogen.vim' 
-if hostname != "dub6051"
-	Bundle 'pyflakes.vim' 
-endif 
-
-
-
-
-
 
 filetype plugin indent on
 "full python syntax highlighting
