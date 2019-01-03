@@ -1,5 +1,4 @@
 let hostname = substitute(system("hostname"),"\n","","")
-
 filetype plugin indent on
 "full python syntax highlighting
 let python_highlight_all=1
@@ -25,6 +24,10 @@ set showmatch
 "show matching brackets quicker than default
 set matchtime=1
 "show hte current filename and path in the term title
+let g:ale_python_auto_pipenv=1
+let g:ale_python_flake8_auto_pipenv=1
+let g:ale_python_pyflakes_auto_pipenv=1
+let g:ale_python_pylint_auto_pipenv=1
 set title
 
 "
