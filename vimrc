@@ -29,6 +29,7 @@ set matchtime=1
 "let g:ale_python_pyflakes_auto_pipenv=1
 "let g:ale_python_pylint_auto_pipenv=1
 let g:ale_fixers={'python': ['black'],}
+let g:ale_python_black_options='-l 79'
 set title
 
 "
