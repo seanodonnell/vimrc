@@ -1,2 +1,7 @@
 symlink vimrc to ~/.vimrc
 symlink vim to ~/.vim
+
+from root of repo run
+
+git submodule init
+git submodule update
