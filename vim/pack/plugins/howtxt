@@ -1,6 +1,6 @@
 adding:
 
-git submodule add https://github.com/pluginname pack/mypackages/start/pluginname
+git submodule add https://github.com/pluginname start/pluginname
 
 updating:
 

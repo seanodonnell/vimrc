@@ -4,3 +4,15 @@
 [submodule "vim/pack/plugins/start/nerdtree"]
 	path = vim/pack/plugins/start/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git 
+[submodule "vim/pack/plugins/ultisnips"]
+	path = vim/pack/plugins/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "vim/pack/plugins/vim-snippets"]
+	path = vim/pack/plugins/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "vim/pack/plugins/start/ultisnips"]
+	path = vim/pack/plugins/start/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "vim/pack/plugins/start/vim-snippets"]
+	path = vim/pack/plugins/start/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
