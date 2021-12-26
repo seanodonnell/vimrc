@@ -32,6 +32,10 @@ let g:ale_fixers={'python': ['black'],}
 let g:ale_python_black_options='-l 79'
 set title
 
+let g:UltiSnipsExpandTrigger="<tab>"
+" list all snippets for current filetype
+let g:UltiSnipsListSnippets="<c-l>"
+
 "
 " tab settings
 "
